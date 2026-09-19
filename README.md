@@ -46,3 +46,10 @@ User-uploaded CSV files.
 * Data Cleaning Script (app.py)  
 * Flask Web Interface  
 * Cleaned Output Files 
+
+## Contact
+Email: michellmprager@gmail.com  
+Location: Hamburg, NJ
+www.linkedin.com/in/
+michelle-m-prager
+
