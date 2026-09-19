@@ -1,0 +1,8 @@
+email,name,age,city,notes
+john.doe @gmail.com , John Doe , 29 , new york ,  Likes pizza  
+JANE.DOE@GMAIL.COM,   Jane   Doe,  31,  New   York,  Has 2 cats
+bob.smith@gmail.com, Bob Smith , , los angeles ,   Missing age   
+alice @ yahoo.com, Alice Smith, 27,Los Angeles,  DOUBLE  SPACES  
+john.doe @gmail.com , John Doe , 29 , new york , Duplicate row  
+MIKE.BROWN@GMAIL.COM,   Mike Brown , 45 ,   miami ,   Mixed CASE  
+susan.white@gmail.com, Susan White,  , miami ,   trailing space   
