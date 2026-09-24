@@ -1,98 +1,72 @@
-📘 DCAP Tool — Data Cleaning & Processing Tool
-    1   Author
-Michelle M Prager  
-Hamburg, NJ
-Aspiring Data Analyst & Python Developer
 
-    Capstone Notes
-This project was created as part of my NCLab Python Developer Capstone.
-It demonstrates:
+# Capstone DCAP Tool
+## Data Cleaning Automation Project
 
-Python scripting
+**Program:** NCLab Python Developer Training Program  
+**Status:** Completed  
+**Author:** Michelle M. Prager
 
-Data cleaning logic
 
-Flask web development
+## Project Overview
+A simple, user-friendly data cleaning tool that automates common preprocessing tasks using Python and pandas. This project supports my transition into a data analytics career by providing hands-on experience with real data workflows.
 
-Project organization
+## Features
+- Remove missing/null values
+- Rename columns automatically
+- Filter data by criteria
+- Export cleaned results to CSV
+- Web interface for easy use
+  
+## Technologies Used
+- Python 3
+- pandas
+- Flask
+- HTML/CSS
+- HTML Templates
 
-Real‑world tool design
+## Files in This Repository
+| File | Description |
+|------|-------------|
+| `app.py` | Main Flask application |
+| `cleaner.py` | Data cleaning logic |
+| `templates/index.html` | Web interface |
+| `report.txt` | Project report |
+| `Requirements` | Python dependencies |
 
-🧹 Overview
-The DCAP Tool (Data Cleaning & Processing Tool) is a Python application designed to clean, validate, and process CSV datasets.
-It includes automated cleaning logic, etiquette checks, duplicate detection, missing‑value handling, and a generated report summarizing the results.
+## Methods Used
+- Data Cleaning
+- Data Transformation
+- Data Export
+- Web Application Development
 
-A simple Flask web interface allows users to run the tool with one click, making it accessible even for non‑technical users.
+## Training Program
+Completed as part of the **NCLab Python Developer Training Program**  
+[https://www.nclab.com](https://www.nclab.com)
 
-🚀 Features
-Automated CSV cleaning pipeline
 
-Duplicate and formatting checks
 
-Missing‑value handling
 
-Etiquette and consistency checks
+## Installation Instructions
 
-Cleaned CSV output
+1. **Clone the repository:**
+2. **Navigate to the project folder:**
+3. **Install required dependencies:**
+4. **Run the application:**
+5. **Open your browser and go to: http://127.0.0.1:5000
+   
 
-Generated report.txt summarizing the cleaning process
+## Project Outcome
+- Successfully built a working data cleaning web application using Python and Flask
+- Automated repetitive data preprocessing tasks that would otherwise require 
+manual effort
+- Gained hands-on experience with pandas for real-world data manipulation
+- Demonstrated ability to build and deploy a full Python web application
+- Cleaned datasets are exported as ready-to-use CSV files for further analysis
 
-Flask web interface for easy use
 
-Improved interface planned for future versions
 
-📁 Project Structure
-Code
-Capstone_DCAP_Tool/
-│
-├── app.py                 # Flask web interface
-├── cleaner.py             # Main data cleaning logic
-├── requirements.txt       # Python dependencies
-├── report.txt             # Generated cleaning report
-│
-├── templates/
-│   └── index.html         # Web interface homepage
-│
-└── data/
-    ├── raw.csv
-    ├── cleaned.csv
-    └── raw_cleaned_dcap.csv
-🛠️ Installation
-1. Clone the repository
-Code
-git clone <your-repo-url>
-cd Capstone_DCAP_Tool
-2. Install dependencies
-Code
-pip install -r requirements.txt
-▶️ Running the Tool
-Option A — Run the cleaning script directly
-Code
-python cleaner.py
-This will:
 
-Process the raw CSV
 
-Generate cleaned output
 
-Create report.txt
 
-Option B — Run the Flask web interface
-Code
-python app.py
-Then open your browser and go to:
 
-Code
-http://127.0.0.1:5000
-Click Run DCAP Tool to execute the cleaning pipeline.
-
-🌐 Future Enhancements
-File upload support
-
-Downloadable cleaned CSV
-
-Downloadable report
-
-Improved interface
-
-Optional hosting on Render with custom domain
