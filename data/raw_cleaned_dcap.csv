@@ -1,8 +1,8 @@
-email,name,age,city,notes
-john.doe @gmail.com , John Doe , 29 , new york ,  Likes pizza  
-JANE.DOE@GMAIL.COM,   Jane   Doe,  31,  New   York,  Has 2 cats
-bob.smith@gmail.com, Bob Smith , , los angeles ,   Missing age   
-alice @ yahoo.com, Alice Smith, 27,Los Angeles,  DOUBLE  SPACES  
-john.doe @gmail.com , John Doe , 29 , new york , Duplicate row  
-MIKE.BROWN@GMAIL.COM,   Mike Brown , 45 ,   miami ,   Mixed CASE  
-susan.white@gmail.com, Susan White,  , miami ,   trailing space   
+name,email,city,phone,status
+JOHN SMITH,john.smith@email.com,new york,555-1234,active
+jane doe,JANE.DOE@EMAIL.COM, brooklyn ,555-5678,ACTIVE
+John Smith,john.smith@email.com,new york,555-1234,active
+BOB JONES,bob.jones@email.com,  newark  ,555-9999,MISSING
+alice brown,alice.b@email.com,Jersey City,444-0000,active
+MISSING,missing@email.com,unknown,000-0000,inactive
+TOM HARRIS,tom.h@email.com,hoboken,555-3333,INACTIVE

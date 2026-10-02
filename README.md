@@ -41,23 +41,25 @@ Flask web interface for easy use
 
 Improved interface planned for future versions
 
-📁 Project Structure
-Code
+     Project Structure
+
 Capstone_DCAP_Tool/
 │
-├── app.py                 # Flask web interface
-├── cleaner.py             # Main data cleaning logic
-├── requirements.txt       # Python dependencies
-├── report.txt             # Generated cleaning report
+├── app.py               # Flask web interface
+├── cleaner.py           # Main data cleaning logic
+├── requirements.txt     # Python dependencies
+├── report.txt           # Generated cleaning report
 │
 ├── templates/
-│   └── index.html         # Web interface homepage
+│   ├── index.html       # Web interface homepage
+│   └── results.html     # Cleaning results page
 │
 └── data/
     ├── raw.csv
     ├── cleaned.csv
     └── raw_cleaned_dcap.csv
-🛠️ Installation
+
+     Installation
 1. Clone the repository
 Code
 git clone <your-repo-url>
@@ -65,7 +67,32 @@ cd Capstone_DCAP_Tool
 2. Install dependencies
 Code
 pip install -r requirements.txt
-▶️ Running the Tool
+
+     Sample Data
+A sample messy dataset is included so you can test the tool immediately!
+
+Location: data/raw.csv
+
+The sample file contains intentional data quality issues including:
+- Duplicate rows
+- Missing values
+- Inconsistent capitalization
+- Leading and trailing spaces
+
+To use the sample data:
+1. The sample file is already included at data/raw.csv
+2. Simply run the tool below using Option A or Option B 
+3. The tool will detect and fix all issues automatically
+4. Your cleaned file will be saved to data/raw_cleaned_dcap.csv
+5. A summary report will be saved to report.txt
+
+To use YOUR OWN data:
+- Replace data/raw.csv with your own CSV file
+- Keep the filename as raw.csv
+- Run the tool the same way
+
+
+▶️ Running the DCAP Tool
 Option A — Run the cleaning script directly
 Code
 python cleaner.py
@@ -86,7 +113,7 @@ Code
 http://127.0.0.1:5000
 Click Run DCAP Tool to execute the cleaning pipeline.
 
-🌐 Future Enhancements
+     Future Enhancements
 File upload support
 
 Downloadable cleaned CSV

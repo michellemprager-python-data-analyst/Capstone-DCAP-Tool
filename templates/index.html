@@ -1,14 +1,22 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
     <title>DCAP Tool</title>
+    <style>
+        body { font-family: Arial, sans-serif; background: #f4f4f4; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; }
+        .card { background: white; padding: 40px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); text-align: center; }
+        h1 { color: #2c3e50; }
+        p { color: #666; }
+        a.btn { display: inline-block; margin-top: 20px; padding: 12px 30px; background: #2c3e50; color: white; border-radius: 8px; text-decoration: none; font-size: 16px; }
+        a.btn:hover { background: #1a252f; }
+    </style>
 </head>
 <body>
-    <h1>Welcome to the DCAP Tool</h1>
-    <p>Click below to run the data cleaning process:</p>
-
-    <a href="/run">
-        <button>Run DCAP Tool</button>
-    </a>
+    <div class="card">
+        <h1>🧹 DCAP Cleaning Tool</h1>
+        <p>Click below to scan and clean your data file.</p>
+        <a class="btn" href="/run">Run DCAP Tool</a>
+    </div>
 </body>
 </html>
